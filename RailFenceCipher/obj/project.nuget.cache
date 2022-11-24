@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "77uBZOWT1sHrv6TDA/uniMHgTj/aC0yRkMJcJHG3GlHnbmuoQEUvBEBzRdlxVNA+/zUBZGOH52Td6xOQhkhQhA==",
+  "dgSpecHash": "GPR62625HAPYIxniOzylqbaYGW6QCDUxTxPXDvB4OUfcUljyjdappmOSzpzyE+3EAcYDBzJ9cOo0YGtg9WUiXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher\\RailFenceCipher.csproj",
+  "projectFilePath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher\\RailFenceCipher.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

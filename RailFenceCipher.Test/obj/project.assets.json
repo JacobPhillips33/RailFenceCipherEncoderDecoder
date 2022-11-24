@@ -6135,11 +6135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher.Test\\RailFenceCipher.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher.Test\\RailFenceCipher.Test.csproj",
       "projectName": "RailFenceCipher.Test",
-      "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher.Test\\RailFenceCipher.Test.csproj",
+      "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher.Test\\RailFenceCipher.Test.csproj",
       "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher.Test\\obj\\",
+      "outputPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6156,8 +6156,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher\\RailFenceCipher.csproj": {
-              "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher\\RailFenceCipher.csproj"
+            "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher\\RailFenceCipher.csproj": {
+              "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher\\RailFenceCipher.csproj"
             }
           }
         }

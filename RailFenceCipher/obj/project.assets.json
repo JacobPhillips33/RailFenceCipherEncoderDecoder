@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher\\RailFenceCipher.csproj",
+      "projectUniqueName": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher\\RailFenceCipher.csproj",
       "projectName": "RailFenceCipher",
-      "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher\\RailFenceCipher.csproj",
+      "projectPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher\\RailFenceCipher.csproj",
       "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipher\\RailFenceCipher\\obj\\",
+      "outputPath": "C:\\Users\\Jake\\Desktop\\Repos\\RailFenceCipherEncoderDecoder\\RailFenceCipher\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",

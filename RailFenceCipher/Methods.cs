@@ -53,8 +53,37 @@ namespace RailFenceCipher
 
         public static string Decode(string str, int num)
         {
-            // Your code here
-            return null;
+            if (str == "") return "";
+
+            char[] answer = new char[str.Length];
+
+            answer[0] = str[0];
+
+            var newNum = num;
+            var level = 1;
+            var skip = num * 2 - 2;
+            var slot = skip;
+            var k = 0;
+
+            for (int i = 1; i < str.Length; i++)
+            {
+                if (slot > str.Length - 1)
+                {
+                    level++;
+                    newNum--;
+                    skip = level == num ? num * 2 - 2 : newNum * 2 - 2;
+                    k++;
+                    slot = k;
+                }
+
+                answer[slot] = str[i];
+
+                slot += skip;
+            }
+
+
+
+            return string.Join("", answer);
         }
     }
 }
