@@ -61,27 +61,36 @@ namespace RailFenceCipher
 
             var newNum = num;
             var level = 1;
-            var skip = num * 2 - 2;
-            var slot = skip;
+            var skipBottom = num * 2 - 2;
+            var skipTop = 0;
+            var skip = skipBottom;
+            var slot = 0;
+            var j = 0;
             var k = 0;
 
             for (int i = 1; i < str.Length; i++)
             {
-                if (slot > str.Length - 1)
+                if (slot + skip > str.Length - 1)
                 {
                     level++;
                     newNum--;
-                    skip = level == num ? num * 2 - 2 : newNum * 2 - 2;
-                    k++;
-                    slot = k;
+                    skipBottom = level == num ? num * 2 - 2 : newNum * 2 - 2;
+                    skipTop += 2;
+                    j++;
+                    slot = j;
+                    k = 0;
+                }
+                else
+                {
+                    skip = level == 1 ? skipBottom : k % 2 != 0 ? skipTop : skipBottom;
+                    slot += skip;
+                    k++;                    
                 }
 
                 answer[slot] = str[i];
-
-                slot += skip;
+                
+                skip = level == 1 ? skipBottom : k % 2 != 0 ? skipTop : skipBottom;
             }
-
-
 
             return string.Join("", answer);
         }
